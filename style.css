@@ -3,10 +3,12 @@ então se eu quero mudar o estilo de algo
 eu preciso referenciar o nome do elemento ou sua classe */
 /* GERALMENTE NO BODY PADRONIZAMOS MARGENS E ESPAÇAMENTOS  */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto", sans-serif;
 }
 .back-primario {
     background-color:#6ce7e3;
@@ -20,7 +22,104 @@ body {
     left: -32px;
     bottom: 0px;
 }
-
 .content{
     width: 80%;
+}
+
+/*----- CLASSES DE ESTILIZAÇÃO DE TEXTOS*/
+
+/*TITULO COM COR PRIMÁRIA*/
+.title-1{
+    color: #2d3555; 
+}
+.title-2{
+    color: #6ce7e3; 
+}
+
+/*TEXTOS DE APOIO COM COR PRIMÁRIA*/
+.text-info{
+    color: #2d3555;
+}
+.text-info-2{
+    color: #fff;
+    font-weight: 100;
+}
+
+
+
+/*------- CLASSES PARA BOTÕES -------*/
+.btn-primary{
+    background-color: #2d3555;
+    border: none;
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.btn-secundary{
+    background-color: #6ce7e3;
+    border: none;
+    width: 100%;
+    height: 55px;
+    color: #2d3555;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+a{
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/*------- CLASSES PARA OS INPUTS ---------*/
+.form-input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #dddfeb;
+    color: #2d3555;
+    font-size: 14px;
+    border: none;
+    font-weight: 100;
+}
+
+.form-input::placeholder{
+    color: #2d3555;
+    padding-left: 20px;
+}
+
+
+.footer-info{
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+}
+
+
+/*------- CLASSES DE PADRÕES DE MARGENS -------*/
+.top1{
+    margin-top: 1vh;
+}
+.top2{
+    margin-top: 2vh;
+}
+.top3{
+    margin-top: 3vh;
+}
+.top4{
+    margin-top: 4vh;
+}
+.top5{
+    margin-top: 5vh;
+}
+.top6{
+    margin-top: 6vh;
+}
+.top7{
+    margin-top: 7vh;
 }
